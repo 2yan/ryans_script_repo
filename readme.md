@@ -20,8 +20,8 @@ Platforms:
 
 Filename: combine_sales_forecast_and_actuals.sql
 Summary: This SQL script combines sales forecast data from the `opportunity_dev.forecast.sales_forecast_by_month` table and actual sales data from the `singularity.rpt.policykm` table. It uses a `UNION ALL` statement to unify the data based on specific columns like date, funeral_home_id, amount, source, and version. Ideal for reporting and analytics where consolidated data view is required.
-Tags: SQL, Data Integration, Analytics
-Platforms: SQL Server, PostgreSQL, MySQL (any SQL-compliant database)
+Tags: SNOWFLAKE, PRECOA, SNOWSQL
+Platforms: SNOWFLAKE 
 ________________________________________
 
 # END
